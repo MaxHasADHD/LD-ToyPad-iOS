@@ -13,7 +13,49 @@
 		A7097D4027F74B2200328A7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D2E27F74B2100328A7D /* ContentView.swift */; };
 		A7097D4127F74B2200328A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7097D2F27F74B2200328A7D /* Assets.xcassets */; };
 		A7097D4227F74B2200328A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7097D2F27F74B2200328A7D /* Assets.xcassets */; };
+		A7097D4C27F74C3E00328A7D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D4B27F74C3E00328A7D /* NetworkManager.swift */; };
+		A7097D4D27F74C3E00328A7D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D4B27F74C3E00328A7D /* NetworkManager.swift */; };
+		A7097D5027F7503700328A7D /* ToyTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D4F27F7503700328A7D /* ToyTag.swift */; };
+		A7097D5127F7503700328A7D /* ToyTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D4F27F7503700328A7D /* ToyTag.swift */; };
+		A7097D5327F75D3200328A7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5227F75D3200328A7D /* Character.swift */; };
+		A7097D5427F75D3200328A7D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5227F75D3200328A7D /* Character.swift */; };
+		A7097D5627F7602C00328A7D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5527F7602C00328A7D /* Vehicle.swift */; };
+		A7097D5727F7602C00328A7D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5527F7602C00328A7D /* Vehicle.swift */; };
+		A7097D5E27F76B6E00328A7D /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = A7097D5D27F76B6E00328A7D /* SocketIO */; };
+		A7097D6027F7747D00328A7D /* ToyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5F27F7747D00328A7D /* ToyPadView.swift */; };
+		A7097D6127F7747D00328A7D /* ToyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7097D5F27F7747D00328A7D /* ToyPadView.swift */; };
+		A7097D6427F774AC00328A7D /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = A7097D6327F774AC00328A7D /* SocketIO */; };
+		A7C0343327F7896400816A67 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343227F7896400816A67 /* CharacterList.swift */; };
+		A7C0343427F7896400816A67 /* CharacterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343227F7896400816A67 /* CharacterList.swift */; };
+		A7C0343727F789FB00816A67 /* ToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343627F789FB00816A67 /* ToyBox.swift */; };
+		A7C0343827F789FB00816A67 /* ToyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343627F789FB00816A67 /* ToyBox.swift */; };
+		A7C0343A27F78B5200816A67 /* ToyPadContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343927F78B5200816A67 /* ToyPadContainer.swift */; };
+		A7C0343B27F78B5200816A67 /* ToyPadContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343927F78B5200816A67 /* ToyPadContainer.swift */; };
+		A7C0343D27F790D400816A67 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343C27F790D400816A67 /* VehicleList.swift */; };
+		A7C0343E27F790D400816A67 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343C27F790D400816A67 /* VehicleList.swift */; };
+		A7C0344027F7B6AE00816A67 /* ToyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343F27F7B6AE00816A67 /* ToyPad.swift */; };
+		A7C0344127F7B6AE00816A67 /* ToyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0343F27F7B6AE00816A67 /* ToyPad.swift */; };
+		A7C0344927F7BC2100816A67 /* LegoDimensionsToyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0344827F7BC2100816A67 /* LegoDimensionsToyPadTests.swift */; };
+		A7C0345027F7BC3500816A67 /* ToyPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0344F27F7BC3500816A67 /* ToyPadTests.swift */; };
+		F528619227F89DBA00A9856D /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619127F89DBA00A9856D /* StartupView.swift */; };
+		F528619327F89DBA00A9856D /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619127F89DBA00A9856D /* StartupView.swift */; };
+		F528619527F89FCD00A9856D /* PiSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619427F89FCD00A9856D /* PiSetupView.swift */; };
+		F528619627F89FCD00A9856D /* PiSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619427F89FCD00A9856D /* PiSetupView.swift */; };
+		F528619827F8A55D00A9856D /* EmulatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619727F8A55D00A9856D /* EmulatorContainer.swift */; };
+		F528619927F8A55D00A9856D /* EmulatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528619727F8A55D00A9856D /* EmulatorContainer.swift */; };
+		F528C52227F9BB7800404D9E /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528C52127F9BB7800404D9E /* Color+.swift */; };
+		F528C52427F9BC3800404D9E /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528C52327F9BC3800404D9E /* ColorData.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7C0344A27F7BC2100816A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7097D2827F74B2000328A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7097D3327F74B2200328A7D;
+			remoteInfo = "LegoDimensionsToyPad (iOS)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A7097D2D27F74B2100328A7D /* LegoDimensionsToyPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoDimensionsToyPadApp.swift; sourceTree = "<group>"; };
@@ -22,6 +64,24 @@
 		A7097D3427F74B2200328A7D /* LegoDimensionsToyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegoDimensionsToyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7097D3A27F74B2200328A7D /* LegoDimensionsToyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegoDimensionsToyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7097D3C27F74B2200328A7D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A7097D4B27F74C3E00328A7D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A7097D4F27F7503700328A7D /* ToyTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTag.swift; sourceTree = "<group>"; };
+		A7097D5227F75D3200328A7D /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		A7097D5527F7602C00328A7D /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		A7097D5F27F7747D00328A7D /* ToyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyPadView.swift; sourceTree = "<group>"; };
+		A7C0343227F7896400816A67 /* CharacterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterList.swift; sourceTree = "<group>"; };
+		A7C0343627F789FB00816A67 /* ToyBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyBox.swift; sourceTree = "<group>"; };
+		A7C0343927F78B5200816A67 /* ToyPadContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyPadContainer.swift; sourceTree = "<group>"; };
+		A7C0343C27F790D400816A67 /* VehicleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
+		A7C0343F27F7B6AE00816A67 /* ToyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyPad.swift; sourceTree = "<group>"; };
+		A7C0344627F7BC2100816A67 /* LegoDimensionsToyPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoDimensionsToyPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0344827F7BC2100816A67 /* LegoDimensionsToyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoDimensionsToyPadTests.swift; sourceTree = "<group>"; };
+		A7C0344F27F7BC3500816A67 /* ToyPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyPadTests.swift; sourceTree = "<group>"; };
+		F528619127F89DBA00A9856D /* StartupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
+		F528619427F89FCD00A9856D /* PiSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiSetupView.swift; sourceTree = "<group>"; };
+		F528619727F8A55D00A9856D /* EmulatorContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmulatorContainer.swift; sourceTree = "<group>"; };
+		F528C52127F9BB7800404D9E /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		F528C52327F9BC3800404D9E /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,10 +89,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7097D5E27F76B6E00328A7D /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A7097D3727F74B2200328A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7097D6427F774AC00328A7D /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0344327F7BC2100816A67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,7 +116,9 @@
 			children = (
 				A7097D2C27F74B2100328A7D /* Shared */,
 				A7097D3B27F74B2200328A7D /* macOS */,
+				A7C0344727F7BC2100816A67 /* LegoDimensionsToyPadTests */,
 				A7097D3527F74B2200328A7D /* Products */,
+				A7097D6227F774AC00328A7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				A7097D2D27F74B2100328A7D /* LegoDimensionsToyPadApp.swift */,
-				A7097D2E27F74B2100328A7D /* ContentView.swift */,
+				A7097D4B27F74C3E00328A7D /* NetworkManager.swift */,
+				A7C0343527F789E500816A67 /* Views */,
+				A7097D4E27F7502C00328A7D /* Models */,
+				F528C52027F9BB6E00404D9E /* Extensions */,
 				A7097D2F27F74B2200328A7D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -66,6 +140,7 @@
 			children = (
 				A7097D3427F74B2200328A7D /* LegoDimensionsToyPad.app */,
 				A7097D3A27F74B2200328A7D /* LegoDimensionsToyPad.app */,
+				A7C0344627F7BC2100816A67 /* LegoDimensionsToyPadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +151,58 @@
 				A7097D3C27F74B2200328A7D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		A7097D4E27F7502C00328A7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0343627F789FB00816A67 /* ToyBox.swift */,
+				A7C0343F27F7B6AE00816A67 /* ToyPad.swift */,
+				A7097D4F27F7503700328A7D /* ToyTag.swift */,
+				A7097D5227F75D3200328A7D /* Character.swift */,
+				A7097D5527F7602C00328A7D /* Vehicle.swift */,
+				F528C52327F9BC3800404D9E /* ColorData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A7097D6227F774AC00328A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C0343527F789E500816A67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7097D2E27F74B2100328A7D /* ContentView.swift */,
+				F528619727F8A55D00A9856D /* EmulatorContainer.swift */,
+				A7C0343927F78B5200816A67 /* ToyPadContainer.swift */,
+				A7097D5F27F7747D00328A7D /* ToyPadView.swift */,
+				A7C0343227F7896400816A67 /* CharacterList.swift */,
+				A7C0343C27F790D400816A67 /* VehicleList.swift */,
+				F528619127F89DBA00A9856D /* StartupView.swift */,
+				F528619427F89FCD00A9856D /* PiSetupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7C0344727F7BC2100816A67 /* LegoDimensionsToyPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C0344827F7BC2100816A67 /* LegoDimensionsToyPadTests.swift */,
+				A7C0344F27F7BC3500816A67 /* ToyPadTests.swift */,
+			);
+			path = LegoDimensionsToyPadTests;
+			sourceTree = "<group>";
+		};
+		F528C52027F9BB6E00404D9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F528C52127F9BB7800404D9E /* Color+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +221,9 @@
 			dependencies = (
 			);
 			name = "LegoDimensionsToyPad (iOS)";
+			packageProductDependencies = (
+				A7097D5D27F76B6E00328A7D /* SocketIO */,
+			);
 			productName = "LegoDimensionsToyPad (iOS)";
 			productReference = A7097D3427F74B2200328A7D /* LegoDimensionsToyPad.app */;
 			productType = "com.apple.product-type.application";
@@ -111,9 +241,30 @@
 			dependencies = (
 			);
 			name = "LegoDimensionsToyPad (macOS)";
+			packageProductDependencies = (
+				A7097D6327F774AC00328A7D /* SocketIO */,
+			);
 			productName = "LegoDimensionsToyPad (macOS)";
 			productReference = A7097D3A27F74B2200328A7D /* LegoDimensionsToyPad.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A7C0344527F7BC2100816A67 /* LegoDimensionsToyPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0344C27F7BC2100816A67 /* Build configuration list for PBXNativeTarget "LegoDimensionsToyPadTests" */;
+			buildPhases = (
+				A7C0344227F7BC2100816A67 /* Sources */,
+				A7C0344327F7BC2100816A67 /* Frameworks */,
+				A7C0344427F7BC2100816A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C0344B27F7BC2100816A67 /* PBXTargetDependency */,
+			);
+			name = LegoDimensionsToyPadTests;
+			productName = LegoDimensionsToyPadTests;
+			productReference = A7C0344627F7BC2100816A67 /* LegoDimensionsToyPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -122,7 +273,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					A7097D3327F74B2200328A7D = {
@@ -130,6 +281,10 @@
 					};
 					A7097D3927F74B2200328A7D = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					A7C0344527F7BC2100816A67 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = A7097D3327F74B2200328A7D;
 					};
 				};
 			};
@@ -142,12 +297,16 @@
 				Base,
 			);
 			mainGroup = A7097D2727F74B2000328A7D;
+			packageReferences = (
+				A7097D5C27F76B6E00328A7D /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = A7097D3527F74B2200328A7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A7097D3327F74B2200328A7D /* LegoDimensionsToyPad (iOS) */,
 				A7097D3927F74B2200328A7D /* LegoDimensionsToyPad (macOS) */,
+				A7C0344527F7BC2100816A67 /* LegoDimensionsToyPadTests */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +328,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7C0344427F7BC2100816A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -176,8 +342,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7097D5627F7602C00328A7D /* Vehicle.swift in Sources */,
+				F528C52227F9BB7800404D9E /* Color+.swift in Sources */,
+				A7C0343727F789FB00816A67 /* ToyBox.swift in Sources */,
+				A7C0343A27F78B5200816A67 /* ToyPadContainer.swift in Sources */,
+				F528619227F89DBA00A9856D /* StartupView.swift in Sources */,
+				A7097D4C27F74C3E00328A7D /* NetworkManager.swift in Sources */,
+				A7C0344027F7B6AE00816A67 /* ToyPad.swift in Sources */,
+				A7C0343D27F790D400816A67 /* VehicleList.swift in Sources */,
+				F528619527F89FCD00A9856D /* PiSetupView.swift in Sources */,
 				A7097D3F27F74B2200328A7D /* ContentView.swift in Sources */,
+				A7097D5327F75D3200328A7D /* Character.swift in Sources */,
+				A7097D6027F7747D00328A7D /* ToyPadView.swift in Sources */,
+				A7C0343327F7896400816A67 /* CharacterList.swift in Sources */,
 				A7097D3D27F74B2200328A7D /* LegoDimensionsToyPadApp.swift in Sources */,
+				F528619827F8A55D00A9856D /* EmulatorContainer.swift in Sources */,
+				A7097D5027F7503700328A7D /* ToyTag.swift in Sources */,
+				F528C52427F9BC3800404D9E /* ColorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +366,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7097D5727F7602C00328A7D /* Vehicle.swift in Sources */,
+				A7C0343827F789FB00816A67 /* ToyBox.swift in Sources */,
+				A7C0343B27F78B5200816A67 /* ToyPadContainer.swift in Sources */,
+				F528619327F89DBA00A9856D /* StartupView.swift in Sources */,
+				A7097D4D27F74C3E00328A7D /* NetworkManager.swift in Sources */,
+				A7C0344127F7B6AE00816A67 /* ToyPad.swift in Sources */,
+				A7C0343E27F790D400816A67 /* VehicleList.swift in Sources */,
+				F528619627F89FCD00A9856D /* PiSetupView.swift in Sources */,
 				A7097D4027F74B2200328A7D /* ContentView.swift in Sources */,
+				A7097D5427F75D3200328A7D /* Character.swift in Sources */,
+				A7097D6127F7747D00328A7D /* ToyPadView.swift in Sources */,
+				A7C0343427F7896400816A67 /* CharacterList.swift in Sources */,
 				A7097D3E27F74B2200328A7D /* LegoDimensionsToyPadApp.swift in Sources */,
+				F528619927F8A55D00A9856D /* EmulatorContainer.swift in Sources */,
+				A7097D5127F7503700328A7D /* ToyTag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C0344227F7BC2100816A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C0345027F7BC3500816A67 /* ToyPadTests.swift in Sources */,
+				A7C0344927F7BC2100816A67 /* LegoDimensionsToyPadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7C0344B27F7BC2100816A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7097D3327F74B2200328A7D /* LegoDimensionsToyPad (iOS) */;
+			targetProxy = A7C0344A27F7BC2100816A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A7097D4327F74B2200328A7D /* Debug */ = {
@@ -319,7 +530,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,7 +560,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,11 +590,12 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litteral.LegoDimensionsToyPad;
 				PRODUCT_NAME = LegoDimensionsToyPad;
@@ -407,17 +619,59 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litteral.LegoDimensionsToyPad;
 				PRODUCT_NAME = LegoDimensionsToyPad;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A7C0344D27F7BC2100816A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6J8328WE2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litteral.LegoDimensionsToyPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoDimensionsToyPad.app/LegoDimensionsToyPad";
+			};
+			name = Debug;
+		};
+		A7C0344E27F7BC2100816A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6J8328WE2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litteral.LegoDimensionsToyPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoDimensionsToyPad.app/LegoDimensionsToyPad";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -451,7 +705,40 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A7C0344C27F7BC2100816A67 /* Build configuration list for PBXNativeTarget "LegoDimensionsToyPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C0344D27F7BC2100816A67 /* Debug */,
+				A7C0344E27F7BC2100816A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7097D5C27F76B6E00328A7D /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7097D5D27F76B6E00328A7D /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7097D5C27F76B6E00328A7D /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+		A7097D6327F774AC00328A7D /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7097D5C27F76B6E00328A7D /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7097D2827F74B2000328A7D /* Project object */;
 }
